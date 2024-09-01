@@ -13,7 +13,7 @@
     },
     "matrix_pins": {
         "cols": ["GP27", "GP28", "GP21", "GP6", "GP7", "GP8"],
-        "rows": ["GP29", "GP26", "GP5", "GP4", "GP9"]
+        "rows": ["GP29", "GP0", "GP5", "GP4", "GP9"]
     },
     "diode_direction": "ROW2COL",
     "split": {
@@ -30,7 +30,7 @@
         "pointing_device": true,
     }
     "ws2812": {
-        "pin": "GP0",
+        "pin": "GP26",
         "driver": "vendor"
     },
     "processor": "RP2040",
